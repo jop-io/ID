@@ -3,7 +3,8 @@
  * ID
  * 
  * PHP class to generate identification numbers and strings. IDs are generated 
- * with a control character to enable verification of IDs programmatically.
+ * with a control character using Luhn mod N, to enable verification of IDs 
+ * programmatically.
  * 
  * Examples can be found here: https://github.com/jop-io/ID
  * 
